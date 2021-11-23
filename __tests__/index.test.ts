@@ -17,7 +17,7 @@ describe('challenge', () => {
     });
     it('should return exchange rate of 0.87815', async () => {
       const res = await request.get('/exchangeRate/usd/eur');
-      expect(res.rate).toEqual(0.87815);
+      expect(res.body.rate).toEqual(0.87815);
     });
   });
 

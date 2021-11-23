@@ -50,3 +50,6 @@ PORT=<PORT NUMBER> npm local
   * Introduced src/services/exchangeRate.ts along with unit test spec src/services/exchangeRate.ts, with a single test expected to fail
   * Two integration tests and one unit test running, but all failing (as expected).
 * Paused
+* Resumed at 09:40
+* By 10:00; implemented the express routers/controller encapsulation for exchangeRates; two of the three integration tests now pass. TODO on step1 - exchange rate service and integrate with controller - all existing tests to pass.
+* paused
