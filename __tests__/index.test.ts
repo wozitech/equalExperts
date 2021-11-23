@@ -42,11 +42,11 @@ describe('challenge', () => {
       expect(res.body.rate).toEqual(0.87815);
       expect(res.body.conversion.source).toEqual({
         currency: 'usd',
-        value: dollarValue,
+        value: dollarValue.toFixed(2),
       });
       expect(res.body.conversion.target).toEqual({
         currency: 'gbp',
-        value: gbpValue,
+        value: gbpValue.toFixed(2),
       });
     });
   });
