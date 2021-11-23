@@ -31,3 +31,14 @@ PORT=<PORT NUMBER> npm local
 
 ## to calculate sum of Euro/GBP and return Candanien Dollars
 `curl`
+
+
+# Timeline
+* Started challenge on Tuesday 23rd Nov 2021 at 08:20.
+* By 08:40 [20 mins]:
+  * Created git repo (public to allow sharing with EE easier)
+  * npm init
+  * Copied across project default files, like eslint rules and tsconfig
+  * Introduced jest dependencies (including typescript)
+  * Created `src` and `__test__` folders and placed in basic index.ts, index.spec.ts and index.test.ts
+  * Add npm scripts for running the app locally and for running unit/integration and full test coverage
