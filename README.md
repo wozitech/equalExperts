@@ -5,8 +5,8 @@ ee-tech-interview-uk/currency-converter-promblem
 * From: Warren Ayling @ WOZiTech Limited
 
 # Goals
-* Implement an End Point which can return the exchange rate from Euro to Dollars
-* Extend your solution to convert US dollars to British Pounds
+* [Done] Implement an End Point which can return the exchange rate from Euro to Dollars
+* [Done] Extend your solution to convert US dollars to British Pounds
 * Extend your solution to convert Euro to British Pounds
 * Extend your solution to add 13.12 Euro to 99 British Pounds and return 185.64 CAD
 
@@ -21,10 +21,11 @@ PORT=<PORT NUMBER> npm local
 ```
 
 ## Get Exchange Rate from Euro to US Dollars
-`curl `
+`curl http://localhost:<PORT>/exchangeRate/usd/eur`
 
 ## from US Dollars to GBP
-`curl `
+Example shows $111 to convert
+`curl http://localhost:<PORT>/exchangeRate/usd/gbp/111`
 
 ## from Euro Dollars to GBP
 `curl `
@@ -57,3 +58,4 @@ PORT=<PORT NUMBER> npm local
 * By 16:38 [73 mins]; exchange rates service implemented, with a fixed USD to EUR exchangate rate and unit tests, and integrated with controller; all unit and integration tests now pass.
 * By 16:49 [83 mins]; step 2 - extended integration tests for step 2, including adding additional validation error expectations
 * By 17:10 [94 mins] step 2 - provided implementation for step 2 
+* By 17:14 [98 mins] Updated README with the instructions to run step 1 and step 2.
