@@ -54,3 +54,5 @@ PORT=<PORT NUMBER> npm local
 * By 10:00 [65 mins]; implemented the express routers/controller encapsulation for exchangeRates; two of the three integration tests now pass. TODO on step1 - exchange rate service and integrate with controller - all existing tests to pass.
 * paused
 * resumed at 16:30 - 25 minutes remaining
+* By 16:38 [73 mins]; exchange rates service implemented, with a fixed USD to EUR exchangate rate and unit tests, and integrated with controller; all unit and integration tests now pass.
+* By 16:49 [83 mins]; step 2 - extended integration ests for step 2, including adding additional validation error expectations
