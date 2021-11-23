@@ -45,4 +45,8 @@ PORT=<PORT NUMBER> npm local
 * By 08:55 [35 mins]
   * Updated __tests__/index.test.ts (integration) to define four sets of empty test blocks; one for each of the steps outlined in challenge.
   * For the first step, added a general 404 endpoint test, and added two specific positive outcome tests for the first step
-  
+* By 09:05 [45 mins]
+  * Introduced server.ts with express dependency and updated integration test to use supertest, passing express app
+  * Introduced src/services/exchangeRate.ts along with unit test spec src/services/exchangeRate.ts, with a single test expected to fail
+  * Two integration tests and one unit test running, but all failing (as expected).
+* Paused
