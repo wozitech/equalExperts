@@ -1,0 +1,11 @@
+*.log
+dist
+node_modules
+tmp
+*.swp
+
+packages/*/src/**/*.js
+packages/*/coverage
+
+.vscode/**
+coverage/**
