@@ -42,3 +42,7 @@ PORT=<PORT NUMBER> npm local
   * Introduced jest dependencies (including typescript)
   * Created `src` and `__test__` folders and placed in basic index.ts, index.spec.ts and index.test.ts
   * Add npm scripts for running the app locally and for running unit/integration and full test coverage
+* By 08:55 [35 mins]
+  * Updated __tests__/index.test.ts (integration) to define four sets of empty test blocks; one for each of the steps outlined in challenge.
+  * For the first step, added a general 404 endpoint test, and added two specific positive outcome tests for the first step
+  
